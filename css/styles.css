@@ -15,6 +15,7 @@
     --image-overlay-1: #2F303A66;
     --image-overlay-2: #C4C4C499;
 
+    --color3: #afb1b8;
 
 }
 
@@ -134,6 +135,29 @@ a>img {
 .top5:focus {
     color: var(--button);
   }
+/*
+.action {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: 1px solid tomato;
+
+}
+.action button {
+    display: block;
+    width: 120px;
+    height: 120px;
+    padding: 0;
+    border: none;
+
+    background-image: url(../images/symbol-defs.svg#client4);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+*/
+
+
 
 /*main*/
 .main {
@@ -237,16 +261,16 @@ a>img {
 
 }
 .icon-antenna::before {
-    background-image: url(../images/feature-icon-antenna.svg);
+    background-image: url(../images/antenna.svg);
 }
 .icon-clock::before {
-    background-image: url(../images/feature-icon-clock.svg);
+    background-image: url(../images/clock.svg);
 }
 .icon-diagram::before {
-    background-image: url(../images/feature-icon-diagram.svg);
+    background-image: url(../images/diagram.svg);
 }
 .icon-astronaut::before {
-    background-image: url(../images/feature-icon-astronaut.svg);
+    background-image: url(../images/symbol-defs.svg#astronaut);
 }
 
 .feature-list .feature-item {  
