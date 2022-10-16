@@ -151,6 +151,17 @@ a>img {
 .button {
     padding: 0;
     border: none;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;    
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--contact);  
+    cursor: pointer;
     background-color: var(--main-background);
 }
 .button-icon {
