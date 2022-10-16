@@ -153,19 +153,19 @@ a>img {
     border: none;
     font-family: inherit;
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;    
+    letter-spacing: 0.02em;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
 
     color: var(--contact);  
     cursor: pointer;
     background-color: var(--main-background);
 }
 .button-icon {
-    width: 20px;
+    width: 60px;
     height: 20px;
 
 }
