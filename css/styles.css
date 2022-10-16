@@ -373,10 +373,13 @@ a>img {
 }
 .social-item {
     display: flex;
-    align-items: center;
-    justify-content: center;
+   
 }
 .social-link {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
     background: var(--main-background);
@@ -389,7 +392,7 @@ a>img {
     width: 20px;
     height: 20px;
 
-
+outline: 1px solid black;
 }
 
 /*footer*/
