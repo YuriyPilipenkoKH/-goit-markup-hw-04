@@ -379,10 +379,15 @@ a>img {
     height: 44px;
     background: var(--main-background);
     border-radius: 50%;
-    
+
     outline: 1px solid tomato;
 
 }
+.icon-social {
+    width: 20px;
+    height: 20px;
+    
 
+}
 
 /*footer*/
