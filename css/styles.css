@@ -162,7 +162,7 @@ a>img {
 
     color: var(--contact);  
     cursor: pointer;
-    
+    outline: 1px solid tomato;
 
 }
 .button-icon {
