@@ -373,6 +373,8 @@ a>img {
 }
 .social-item {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .social-link {
     width: 44px;
@@ -386,7 +388,7 @@ a>img {
 .icon-social {
     width: 20px;
     height: 20px;
-    
+
 
 }
 
