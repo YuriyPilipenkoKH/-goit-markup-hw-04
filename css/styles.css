@@ -158,11 +158,12 @@ a>img {
     line-height: 1.14;    
     letter-spacing: 0.02em;
     align-items: center;
-    text-align: center;
+    
 
     color: var(--contact);  
     cursor: pointer;
-    background-color: var(--main-background);
+    
+
 }
 .button-icon {
     width: 60px;
