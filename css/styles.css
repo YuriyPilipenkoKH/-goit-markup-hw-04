@@ -104,6 +104,8 @@ a>img {
 }
 .contacts {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     margin-left: auto;
 }
 
