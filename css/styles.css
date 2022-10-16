@@ -139,10 +139,10 @@ a>img {
 .icon-smartphone {
     width: 30px;
     height: 16px;
-
 }
 .contacts-link:hover svg,
 .contacts-link:focus svg {
+    stroke: var(--button);
     fill: var(--button);
 }
   
