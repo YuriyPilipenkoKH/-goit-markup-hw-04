@@ -85,6 +85,8 @@ a>img {
 .nav,.contacts {
     display: flex;
     list-style-type: none;
+    align-items: center;
+
 }
 .main-nav {
     display: flex;
@@ -98,7 +100,7 @@ a>img {
     margin-left: 50px;
 }
 .contacts .contacts-item + .contacts-item { 
-    margin-left: 50px;
+    margin-left: 30px;
 }
 .contacts {
     margin-left: auto;
@@ -111,7 +113,7 @@ a>img {
 .top4,
 .top5 {
     display: block;
-    padding: 32px 0 32px 0;
+    padding: 30px 0;
 
     font-weight: 500;
     font-size: 14px;
@@ -123,6 +125,9 @@ a>img {
 .top4,
 .top5 {
     color: var(--contact);
+    
+
+    outline: 1px solid tomato;
 }
    
 .top1:hover,
@@ -137,39 +142,15 @@ a>img {
 .top5:focus {
     color: var(--button);
   }
+.icon-envelope,
+.icon-smartphone {
+    width: 50px;
+    height: 16px;
 
+}
   
 
-.action {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    align-items: center;
-    outline: 1px solid tomato;
-}
-.button {
-    padding: 0;
-    border: none;
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;    
-    letter-spacing: 0.02em;
-    align-items: center;
-    
 
-    color: var(--contact);  
-    cursor: pointer;
-    outline: 1px solid tomato;
-
-}
-.button-icon {
-    width: 60px;
-    height: 20px;
-
-}
 
 
 
