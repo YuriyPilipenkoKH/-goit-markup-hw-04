@@ -103,6 +103,8 @@ a>img {
 .contacts {
     margin-left: auto;
 }
+
+
 .top1,
 .top2,
 .top3,
@@ -135,27 +137,28 @@ a>img {
 .top5:focus {
     color: var(--button);
   }
-/*
+
+  
+
 .action {
     display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
+    align-items: center;
     outline: 1px solid tomato;
-
 }
-.action button {
-    display: block;
-    width: 120px;
-    height: 120px;
+.button {
     padding: 0;
     border: none;
-
-    background-image: url(../images/symbol-defs.svg#client4);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: var(--main-background);
 }
-*/
+.button-icon {
+    width: 161px;
+    height: 20px;
+
+}
+
 
 
 
@@ -242,13 +245,11 @@ a>img {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.feature-list {
-    display: flex;
-} 
+.feature-list,
 .feature-item {
     display: flex;
-    
-}
+} 
+
 .feature-item::before { 
     display: inline-block;
     content: "";
@@ -260,6 +261,7 @@ a>img {
     background-position: center;
 
 }
+
 .icon-antenna::before {
     background-image: url(../images/antenna.svg);
 }
@@ -270,7 +272,7 @@ a>img {
     background-image: url(../images/diagram.svg);
 }
 .icon-astronaut::before {
-    background-image: url(../images/symbol-defs.svg#astronaut);
+    background-image: url(../images/astronaut.svg);
 }
 
 .feature-list .feature-item {  
