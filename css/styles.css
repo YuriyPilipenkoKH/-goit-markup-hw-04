@@ -131,9 +131,7 @@ a>img {
 .nav-link:hover,
 .contacts-link:hover,
 .nav-link:focus,
-.contacts-link:focus,
-.contacts-link:hover svg,
-.contacts-link:focus svg  {
+.contacts-link:focus  {
     color: var(--button);
   }
 
@@ -142,6 +140,10 @@ a>img {
     width: 30px;
     height: 16px;
 
+}
+.contacts-link:hover svg,
+.contacts-link:focus svg {
+    fill: var(--button)
 }
   
 
