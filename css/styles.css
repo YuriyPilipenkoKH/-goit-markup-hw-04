@@ -32,6 +32,7 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    outline: 1px solid tomato;
 
 }
 h1,h2,h3,p,ul {
@@ -124,7 +125,7 @@ a>img {
 .contacts-link {
     color: var(--contact);
 
-    outline: 1px solid tomato;
+    
 }
    
 .nav-link:hover,
