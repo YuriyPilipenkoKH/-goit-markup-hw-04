@@ -139,11 +139,12 @@ a>img {
 .icon-smartphone {
     width: 30px;
     height: 16px;
+    color: var(--contact);
 }
 .contacts-link:hover svg,
 .contacts-link:focus svg {
-    stroke: var(--button);
-    fill: var(--button);
+    
+    color: var(--button);
 }
 
 
@@ -389,16 +390,16 @@ a>img {
 .icon-social {
     width: 20px;
     height: 20px;
-    
+    color: #AFB1B8;
   
 }
 .social-link:hover {
-    background: black;
+    background: var(--button);
 
 }
 .social-link:hover svg {
-    fill: yellowgreen;
-    stroke: yellowgreen;
+    color: var(--main-background);
+    
 } 
 /*clients*/
 .icon-clients {
