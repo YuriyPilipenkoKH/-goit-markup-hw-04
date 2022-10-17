@@ -402,6 +402,20 @@ a>img {
     
 } 
 /*clients*/
+.clients {
+    padding:  94px;
+}
+.clients-title {
+    margin-bottom: 50px;
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+ 
+}
 .icon-clients {
     width: 170px;
     height: 80px;
