@@ -389,16 +389,20 @@ a>img {
 .icon-social {
     width: 20px;
     height: 20px;
-    size: 100%;
+  
 }
 .social-link:hover {
-    background: var(--button);
+    background: black;
 
 }
 .social-link:hover svg {
-    fill: var(--main-background);
+    fill: yellowgreen;
+    stroke: yellowgreen;
 } 
+/*clients*/
+.icon-clients {
+    width: 100px;
+    height: 60px;
 
-
-
+}
 /*footer*/
