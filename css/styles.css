@@ -404,6 +404,7 @@ a>img {
 /*clients*/
 .icon-clients {
     width: 170px;
+    height: 80px;
     color: var(--color3);
     
 
