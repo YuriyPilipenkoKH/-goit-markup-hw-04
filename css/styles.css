@@ -155,9 +155,12 @@ a:active, a:focus { outline: none; }
 
 .icon-envelope,
 .icon-smartphone {
+  
     width: 30px;
     height: 16px;
+
     color: var(--contact);
+    
 }
 .contacts-link:hover svg,
 .contacts-link:focus svg {
