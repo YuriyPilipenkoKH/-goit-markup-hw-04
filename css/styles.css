@@ -127,8 +127,6 @@ a:active, a:focus { outline: none; }
 
 .contacts-link {
     color: var(--contact);
-
-    
 }
    
 .nav-link:hover,
@@ -155,9 +153,6 @@ a:active, a:focus { outline: none; }
 .main {
     padding: 200px 0 200px 0;
     text-align: center;
-
-    
- 
 }
 .overlay {
     max-width: 1600px;
@@ -166,7 +161,6 @@ a:active, a:focus { outline: none; }
     margin-right: auto;
     border: 2px solid var(--button);
 
-    
     background-image: linear-gradient(
         to right,
         var(--image-overlay-1),
@@ -516,7 +510,7 @@ a:active, a:focus { outline: none; }
 .requisites{
     
 }
-.encouragement {
+.join {
     margin-top: 12px;
     margin-left: 80px;
     width: 206px;
@@ -554,7 +548,7 @@ a:active, a:focus { outline: none; }
 
 }
 
-.encouragement-title {
+.join-title {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
