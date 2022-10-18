@@ -507,14 +507,10 @@ a:active, a:focus { outline: none; }
     display: flex;
     
 }
-.requisites{
-    
-}
 .join {
     margin-top: 12px;
     margin-left: 80px;
     width: 206px;
-
 }
 
 .footer-item-social {
@@ -534,7 +530,6 @@ a:active, a:focus { outline: none; }
     height: 44px;
     background: var(--footer-social);
     border-radius: 50%;
-
 }
 .footer-social {
     width: 44px;
