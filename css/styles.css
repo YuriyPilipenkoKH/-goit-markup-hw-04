@@ -14,6 +14,7 @@
     --head-image-overlay: #2F303A66;
     --image-overlay-1: #2F303A66;
     --image-overlay-2: #C4C4C499;
+    --footer-social: #FFFFFF19;
 
     --color3: #afb1b8;
 
@@ -47,6 +48,9 @@ a>img {
     padding-right: 15px;
     outline: 1px solid tomato;
 }
+a:active, a:focus { outline: none; }
+:focus {outline:none;}
+
 /* header */
 .header {
 
@@ -382,15 +386,17 @@ a>img {
     align-items: center;
     width: 44px;
     height: 44px;
+    color: var(--color3);
     background: var(--main-background);
+    
     border-radius: 50%;
 
 }
 .icon-social {
-    width: 20px;
-    height: 20px;
-    color: var(--color3);
-  
+    width: 44px;
+    height: 44px;
+    
+    
 }
 .social-link:hover,
 .social-link:focus {
@@ -502,11 +508,59 @@ a>img {
 .tel:focus {
     color: var(--button);
 }
-.encouragement {
+
+.footer-content {
     display: flex;
+    
+}
+.requisites{
+    
+}
+.encouragement {
+    margin-top: 12px;
+    margin-left: 80px;
+    width: 206px;
 
 }
-.footer-parts {
+
+.footer-item-social {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-social-link {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background: var(--footer-social);
+    border-radius: 50%;
+
+}
+.footer-social {
+    width: 44px;
+    height: 44px;
+    color: var(--main-background);
+  
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background: var(--button);
+
+}
+
+.encouragement-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     
-    outline: 1px solid beige;
+    color: var(--main-background);      
 }
