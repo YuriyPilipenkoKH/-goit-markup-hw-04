@@ -392,11 +392,13 @@ a>img {
     color: var(--color3);
   
 }
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
     background: var(--button);
 
 }
-.social-link:hover svg {
+.social-link:hover svg,
+.social-link:focus svg {
     color: var(--main-background);
     
 } 
@@ -412,13 +414,10 @@ a>img {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-
- 
 }
 
 .clients-list {
     display: flex;
-    
     gap: 30px;
     
 }
@@ -431,12 +430,12 @@ a>img {
 
 
 .clients-button {
+    font-family: inherit;
     padding: 0;
 
     align-items: center;
     border-radius: 4px;
     border: 1px solid var(--color3);
-      
     background-color: var(--main-background);  
     cursor: pointer;
 }
@@ -446,5 +445,68 @@ a>img {
     color: var(--color3); 
 
 }
+.clients-button:hover svg,
+.clients-button:focus svg {
+    color: var(--button);
+}
+.clients-button:hover,
+.clients-button:focus { 
+    border-color: var(--button);
+}
 
 /*footer*/
+.footer {   
+    background: var(--footer);
+    padding: 60px 0 60px 0;
+}
+.address {
+    margin-top: 20px;
+}
+.address-list {
+    list-style-type: none;
+    padding: 0;
+}
+.map {  
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    letter-spacing: 0.03em;  
+    color: var(--main-background);
+}
+.mail {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--mail);
+}
+.tel {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--mail);
+}
+
+.address-item:not(:last-child) {
+    margin-bottom: 9px;
+
+}
+
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus {
+    color: var(--button);
+}
+.encouragement {
+    display: flex;
+
+}
+.footer-parts {
+    
+    outline: 1px solid beige;
+}
