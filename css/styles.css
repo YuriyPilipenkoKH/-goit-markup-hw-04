@@ -33,7 +33,7 @@
     --image-overlay-2: #C4C4C419;
     --footer-social: #FFFFFF19;
 
-    --color3: #afb1b8;
+    --color-third: #afb1b8;
 
 }
 
@@ -398,7 +398,7 @@ a:active, a:focus { outline: none; }
     align-items: center;
     width: 44px;
     height: 44px;
-    color: var(--color3);
+    color: var(--color-third);
     background: var(--main-background);
     
     border-radius: 50%;
@@ -453,14 +453,14 @@ a:active, a:focus { outline: none; }
 
     align-items: center;
     border-radius: 4px;
-    border: 1px solid var(--color3);
+    border: 1px solid var(--color-third);
     background-color: var(--main-background);  
     cursor: pointer;
 }
 .icon-clients {
     min-width: 165px;
     height: 80px;
-    color: var(--color3); 
+    color: var(--color-third); 
 
 }
 .clients-button:hover svg,
