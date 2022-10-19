@@ -461,11 +461,13 @@ a:active, a:focus { outline: none; }
 .clients-item {
     display: flex;
     justify-content: center;
+    align-items: center;
+    
     flex-basis: calc((100% - 5 * 30px)/ 6);
-  
+    height: 92px;
+    border: 1px solid var(--color-third); 
+    border-radius: 4px;
 }
-
-
 .clients-button {
     font-family: inherit;
     padding: 0;
@@ -486,9 +488,28 @@ a:active, a:focus { outline: none; }
 .clients-button:focus svg {
     color: var(--button);
 }
-.clients-button:hover,
-.clients-button:focus { 
+.clients-button:hover .clients-item,
+.clients-button:focus .clients-item { 
     border-color: var(--button);
+}
+
+
+/* 
+.ul {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    
+
+} */
+.box {
+    display: flex;
+
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--color-third);
+    border-radius: 4px;
+
 }
 
 /*footer*/
@@ -605,6 +626,7 @@ a:active, a:focus { outline: none; }
 }
 .menu-button {    
     padding: 6px 22px;
+    margin: 0;
 
     font-family: inherit;
     font-style: normal;
