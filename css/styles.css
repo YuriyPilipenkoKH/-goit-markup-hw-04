@@ -285,7 +285,7 @@ a:active, a:focus { outline: none; }
     padding-bottom: 94px;
 }
 .work {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 
     font-weight: 700;
     font-size: 36px;
